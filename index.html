@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="section">
+        <h1 class="section__title">Adivina el número</h1>
+        <form class="form" action="">
+            <label class="label" for="number">Introduce aquí tu número:</label>
+            <input class=" input js-input" type="text" id="number" name="number">
+            <input class="button js-bnt" type="submit" value="Prueba">
+
+        </form>
+        <div class=" div-class">
+            <p class="js-clue">Escribe el número y dale a Prueba</p>
+        
+        </div>
+        <div class=" div-class js-div">
+            <p>Número de intentos: <span class="js-span">0</span></p>
+        </div>
+    </section>
+    <script src="./main.js"></script>
+</body>
+
+</html>
